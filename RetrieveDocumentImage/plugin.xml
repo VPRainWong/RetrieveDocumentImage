@@ -1,0 +1,29 @@
+<plugin
+		id="com.vp.plugin.sample.retrievedocumentimage"
+		name="Retrieve Document Image"
+		description="Retrieve Document Image"
+		provider="Visual Paradigm"
+		class="com.vp.plugin.sample.retrievedocumentimage.RetrieveDocumentImagePlugin">
+	
+	<actionSets>
+  	<actionSet id="com.vp.plugin.sample.retrievedocumentimage.actionset1">
+			<toolbar
+					id="com.vp.plugin.sample.retrievedocumentimage.actionset1.toolbar1"
+					orientation="north"
+					index="last"/>
+			
+			<action
+					id="com.vp.plugin.sample.retrievedocumentimage.actionset1.ResetZOrderAction"
+					actionType="generalAction"
+      		name="Retrieve Document Image"
+					description="Retrieve Document Image"
+					style="normal"
+					icon="icon/icon.png"
+					tooltip="Retrieve Document Image"
+					toolbarPath="com.vp.plugin.sample.retrievedocumentimage.actionset1.toolbar1/#">
+				<actionController class="com.vp.plugin.sample.retrievedocumentimage.RetrieveDocumentImageActionControl"/>
+			</action>
+  	</actionSet>
+		
+	</actionSets>	
+</plugin>
